@@ -1,0 +1,173 @@
+  * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: roboto;
+        }
+
+        /* screen second style  start */
+        .dirver_form_input label {
+            text-align: center;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .driver_input_text {
+            margin-bottom: 19px;
+        }
+
+        .dirver_form_button input {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .second_section_logo {
+            background: #00000040;
+            backdrop-filter: blur(10px);
+        }
+
+        p.driver_login_txt {
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom: 19px;
+            color: #fff;
+        }
+
+
+
+        .driver_input_text input {
+            height: 44px;
+            width: 100%;
+            border: none;
+        }
+
+        .second_section_style_box {
+            display: flex;
+            height: 88vh;
+        }
+
+        .dirver_form_input label {
+            text-align: left;
+            display: block;
+            margin-bottom: 4px;
+            font-size: 19px;
+        }
+
+        .driver_form {
+            width: 380px;
+            padding: 84px 30px;
+            border-radius: 10px;
+            margin: auto;
+            box-shadow: 1px 1px 7px #00000059;
+            backdrop-filter: blur(10px);
+            background: #ffffff6b;
+        }
+
+        .second_section_logo img {
+            width: 170px;
+        }
+
+        .driver_input_text input {
+            height: 44px;
+            width: 100%;
+            border: none;
+            font-size: 19px;
+            font-weight: 300;
+            padding-left: 15px;
+            background: transparent;
+            color: #000;
+            border-bottom: 1px solid;
+            outline: none;
+        }
+
+        .driver_input_text input::placeholder {
+            color: #000;
+        }
+
+        .driver_input_text {
+            margin-bottom: 26px;
+        }
+
+        p.driver_login_txt {
+            font-size: 23px;
+            font-weight: 500;
+            margin-bottom: 48px;
+            color: #000;
+            text-align: center;
+            letter-spacing: 4px;
+        }
+
+        .dirver_form_button input {
+            width: 100%;
+            padding: 12px;
+            background: #fff;
+            border: 2px solid #fff;
+            font-size: 17px;
+            color: #0790dd;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+        .dirver_form_button input {
+            position: relative;
+            width: 200px;
+            color: #000;
+            display: block;
+            text-decoration: none;
+            margin: 0 auto;
+            border-radius: 5px;
+            border: solid 1px #053956;
+            background: #fff;
+            text-align: center;
+            padding: 12px 28px;
+            font-size: 19px;
+            -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            transition: all 0.1s;
+            -webkit-box-shadow: 0px 9px 0px #053956;
+            -moz-box-shadow: 0px 9px 0px #053956;
+            box-shadow: 5px 5px 0px #053956;
+        }
+
+        .dirver_form_button input:active {
+            -webkit-box-shadow: 0px 2px 0px #053956;
+            -moz-box-shadow: 0px 2px 0px #053956;
+            box-shadow: 0px 2px 0px #053956;
+            position: relative;
+            top: 8px;
+        }
+
+        .second_section_style {
+            background: url(bgimg.jpg) no-repeat;
+        }
+
+        /* screen second style  end */
+        .second_section_logo_for_mobile {
+            display: none;
+        }
+
+        /*-----------third screen--------------*/
+        .dirver_form_button.select_vhecle_row input { 
+    width: 128px; 
+}
+.dirver_form_button.select_vhecle_row {
+    display: flex;
+}
+        /*-----------third screen end--------------*/
+
+        @media only screen and (max-width:767px) {
+            .second_section_logo {
+                display: none;
+            }
+
+            .second_section_logo_for_mobile {
+                text-align: center;
+                display: block;
+            }
+
+            .second_section_logo_for_mobile img {
+                width: 76%;
+                margin-bottom: 10px;
+            }
+        }
